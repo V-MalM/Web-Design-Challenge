@@ -52,8 +52,8 @@ width : 49%;
   font-family:monospace;
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   .img_width {
     width : 24%;
   }  
-}
+} */
