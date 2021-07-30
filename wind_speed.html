@@ -10,46 +10,48 @@
 </head>
 
 <body class="bg-white">
-<div class="container">  
-  <nav class="navbar navbar-expand-lg navbar-light bg-white navbar_padding">
-    <div class="container">
-      <a class="navbar-brand latitude latitude_a" style="color: antiquewhite;" href="index.html">Latitude</a>
+<div class="container-fluid">  
+  <nav class="navbar navbar-expand-lg navbar-light bg-white navbar_padding">  
+    <div class="container-fluid">
+      <a class="navbar-brand latitude" style="color: antiquewhite;" href="index.html">Latitude</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse d-flex flex-row-reverse bd-highlight" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Plots
+              Dropdown link
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="max_temp.html">Max Temperature</a></li>
-              <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
-              <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-              <li><a class="dropdown-item" href="wind_speed.html">Wind Speed</a></li>
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
-
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Comparision</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Data</a>
-          </li>
-
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container container_bg_color px-5 py-5">
+  <div class="container_bg_color px-5 py-5">
   
     <div class="row d-flex justify-content-around">
 
-      <div class="col-md-7 bg-white">
-        <img src="WebVisualizations/Visualizations/city_lat_vs_Wind_Speed.jpeg" >
+      <div class="col-sm-12  col-md-12 col-lg-7 bg-white">
+        <h1 class="land_page_h">Summary: Latitude vs. X</h1>
+        <hr>
+     
+        <img src="WebVisualizations/Visualizations/city_lat_vs_Wind_Speed.jpeg" class="img1">
           <p>
             The purpose of this project was to analyze how weather changes as you get closer to the equator.
             To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
@@ -62,7 +64,10 @@
           </p>                   
 
       </div>
-      <div class="col-md-4 bg-white align-self-start">
+      <div class="col-sm-12 col-md-12 col-lg-4 bg-white align-self-start">
+        <br />
+        <h2 class="land_page_h">Visualizations</h2>
+        <hr>
         <a href="max_temp.html"><img src="WebVisualizations/Visualizations/city_lat_vs_Max_Temp.jpeg" class="img_width"></a>
         <a href="cloudiness.html"><img src="WebVisualizations/Visualizations/city_lat_vs_Cloudiness.jpeg" class="img_width"></a>
         <a href="wind_speed.html"><img src="WebVisualizations/Visualizations/city_lat_vs_Wind_Speed.jpeg" class="img_width"></a>
@@ -82,3 +87,4 @@
 </body>
 
 </html>
+

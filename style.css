@@ -83,7 +83,7 @@ p {
 
 @media (min-width: 992px) {      
   .img1 { 
-    width : 49%;
+    width : 60%;
     }
     p {
 
@@ -94,7 +94,7 @@ p {
 }
 @media (min-width: 1200px) {    
   .img1 { 
-    width : 49%;
+    width : 60%;
     }
     p {
 
