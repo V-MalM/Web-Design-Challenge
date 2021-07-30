@@ -54,6 +54,6 @@ width : 49%;
 
  @media (min-width: 768px) {
   .img1 {
-    width : 24%;
+    width : 100%;
   }  
 } 
