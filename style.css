@@ -52,14 +52,14 @@ width : 49%;
   font-family:monospace;
 }
 
-@media (min-width: 992px)
+/* @media (min-width: 992px)
 {
   .img1 {
     width : 60%;
   }  
-} 
+}  */
 
- @media (min-width: 768px) {
+ @media (max-width: 768px) {
   .img1 {
     width : 100%;
   }  
