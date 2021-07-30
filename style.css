@@ -19,10 +19,10 @@
 }
 
 .img_width { 
-width : 150px;
+width : 49%;
 }
 
-img {
+.img1 {
   float: left;
   width:60%;
   margin: 5px;
@@ -45,4 +45,15 @@ img {
 
 .navbar_padding{
   padding-bottom: 0rem;
+}
+
+.land_page_h {
+  color:rgb(185, 90, 56);
+  font-family:monospace;
+}
+
+@media (max-width: 600px) {
+  .img_width {
+    width : 24%;
+  }  
 }
