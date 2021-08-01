@@ -154,7 +154,7 @@ padding-bottom: 60px;
     margin-top: 32px;
     margin-left: 64px;
     margin-right: 64px;
-  };
+  }
 
   .latitude {
     font-size: 3rem;
@@ -190,6 +190,9 @@ padding-bottom: 60px;
       border-color: antiquewhite !important;
       background-color : antiquewhite !important;
       margin: 10px;
+      padding: .25rem .75rem;
+      font-size: 2.25rem;
+      line-height: 1;
     }
 
     .nav_link_font_size{
@@ -202,7 +205,7 @@ padding-bottom: 60px;
     margin-top: 32px;
     margin-left: 64px;
     margin-right: 64px;
-  };
+  }
 
   .latitude {
     font-size: 3rem;
@@ -234,6 +237,9 @@ padding-bottom: 60px;
       border-color: antiquewhite !important;
       background-color : antiquewhite !important;
       margin: 10px;
+      padding: .25rem .75rem;
+      font-size: 2.25rem;
+      line-height: 1;
     }
 
     .nav_link_font_size{
@@ -247,7 +253,7 @@ padding-bottom: 60px;
     margin-top:unset;
     margin-left: 16px;
     margin-right: 16px;
-  };
+  }
 
   .latitude { 
   font-size: 35rem;    
@@ -282,7 +288,7 @@ padding-bottom: 60px;
     margin-top: unset;
     margin-left: 16px;
     margin-right: 16px;
-  };
+  }
 
   .latitude { 
     font-size: 20px;    
