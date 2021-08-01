@@ -44,6 +44,10 @@ width : 49%;
   margin-right: 16px;
 }
 
+
+
+  
+
 .container_bg_color{
   background-color:#ededee;
 }
@@ -146,6 +150,12 @@ padding-bottom: 60px;
 }
 
 @media screen and (max-width: 767px) {   
+  .p_index_page{
+    margin-top: 32px;
+    margin-left: 64px;
+    margin-right: 64px;
+  };
+
   .latitude {
     font-size: 3rem;
   }
@@ -188,6 +198,12 @@ padding-bottom: 60px;
   }
 
 @media screen and (min-width: 768px) {    
+  .p_index_page{
+    margin-top: 32px;
+    margin-left: 64px;
+    margin-right: 64px;
+  };
+
   .latitude {
     font-size: 3rem;
   }  
@@ -227,6 +243,12 @@ padding-bottom: 60px;
   }
 
 @media (min-width: 992px) {  
+  .p_index_page{
+    margin-top:unset;
+    margin-left: 16px;
+    margin-right: 16px;
+  };
+
   .latitude { 
   font-size: 35rem;    
   }
@@ -256,6 +278,12 @@ padding-bottom: 60px;
 }
 
 @media (min-width: 1200px) {    
+  .p_index_page{
+    margin-top: unset;
+    margin-left: 16px;
+    margin-right: 16px;
+  };
+
   .latitude { 
     font-size: 20px;    
     }
