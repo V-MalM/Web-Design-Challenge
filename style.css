@@ -1,37 +1,3 @@
-/* .box {
-  min-height: 50px;
-  padding: 5px;
-  margin: 5px;
-  font-weight: 800;
-  color: #fff;
-}
-
-.skyblue {
-  background: deepskyblue;
-}
-
-.purple {
-  background: rebeccapurple;
-}
-
-.red {
-  background: indianred;
-} */
-
-/* Essentially means a[href], or that the link actually goes somewhere */
-
-/* a:link { 
-  color: blue;
-}
-a:visited {
-  color: purple;
-}
-a:hover {
-  color: green;
-}
-a:active {
-  color: red;
-} */
 
 .img_width { 
 width : 49%;
