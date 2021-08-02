@@ -52,6 +52,63 @@
         <hr> 
         <img src="WebVisualizations/Visualizations/city_lat_vs_Humidity.jpeg" class="vis_img">
         <br /><br />
+        <div class="row d-flex justify-content-around">
+          <div class="col-sm-8  col-md-8 col-lg-8 bg-white" >
+            <img src="WebVisualizations/Visualizations/SH_city_lat_vs_HumidityLR.jpeg" class="vis_img_LR">
+          
+            <img src="WebVisualizations/Visualizations/NH_city_lat_vs_HumidityLR.jpeg" class="vis_img_LR">
+          </div>
+        </div>
+<!-- ####################################-->
+          <!-- Button trigger modal -->
+          <br />    
+          <center><button type="button" class="btn btn-scdry" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Linear Regression Model
+          </button></center>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Sothern and Northern Hemisphere - <br /> Humidity(%) vs. Latitude Linear Regression
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="WebVisualizations/Visualizations/SH_city_lat_vs_HumidityLR.jpeg" width="49%">
+                  <img src="WebVisualizations/Visualizations/NH_city_lat_vs_HumidityLR.jpeg" width="49%">
+                  <ul>
+                  <li>
+                  The line of regression shows that the Latitude and Humidity have a 
+                  VERY WEAK correlation.
+                  </li>
+                  <li>
+                    There are propotional number of humid cities
+                    across all latitudes in SH and majority of the cities are humid on this day with humidity levels 
+                    between 70% and 100% . 
+                  </li> 
+                  <li>
+                    There are propotional number of humid cities
+                    across all latitudes in NH and majority of the cities are humid on 
+                    this day with humidity levels 
+                    between 60% and 100% .
+                  </li>
+                  
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-scdry" data-bs-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <br />
+                    <!-- ####################################-->
+
+
           <p><strong class="visualization_page_h">Analysis and Observations:</strong>
             Latitude does not have much affect on Humididty.</p>
                 <p>There are propotional number of humid cities
