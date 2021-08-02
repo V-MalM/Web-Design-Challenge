@@ -11,5 +11,13 @@ To create a dashboard showing the analysis that was done earlier..
 
 ![WebVisualizations/Images/index.jpg](WebVisualizations/Images/index.jpg)
 
-### Before You Begin
+### Resources
+
+1. All the files related to the website are in the root. 
+
+2. 'WebVisualizations' folder contains Images, Resourses, Visualizations as seperate folders.
+
+3. Deployed to GitHub pages.  
+
+4. Site Link : https://v-malm.github.io/Web-Design-Challenge/
 
