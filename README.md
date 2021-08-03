@@ -105,8 +105,17 @@ Site has navigation menu at the top of each page that:
 ### Bonuses
 
 * Generated the dataset for 7/30/21 
-* Added extra visualizations using bootstrap 'Model'
 * Visualization navigation on every visualizations page maintains an active state. 
+* Added extra visualizations using bootstrap 'Model'.  
+  * Button trigger modal to open Linear Regression Model for each visualization.
+Button trigger :
+
+![Button trigger](WebVisualizations/Images/reg.jpg)
+
+Linear Regression Model as pop up:
+
+![Linear Regression Model](WebVisualizations/Images/reg_mod.jpg)
+
 
 ### Screenshots
 
