@@ -148,11 +148,11 @@ One for each visualization. Here's an example of one:
 
 Large screen:
 
-![visualize page large screen](Images/visualizations.jpg)
+![visualize page large screen](WebVisualizations/Images/visualizations.jpg)
 
 Small screen:
 
-![visualize page small screen](Images/visualizations_sm.jpg)
+![visualize page small screen](WebVisualizations/Images/visualizations_sm.jpg)
 
 #### <a id="navigation-menu"></a>Navigation menu
 
