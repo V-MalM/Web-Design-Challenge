@@ -13,7 +13,7 @@ To create a dashboard showing the analysis that was done earlier..
 
 ### Resources
 
-1. All the files related to the website are in the root. 
+1. All the files related to the website are in [WebVisualizations Folder](WebVisualizations/).. 
 
 2. 'WebVisualizations' folder contains Images, Resourses, Visualizations as seperate folders.
 
