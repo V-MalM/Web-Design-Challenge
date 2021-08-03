@@ -157,7 +157,7 @@ Small screen:
 #### <a id="navigation-menu">Navigation menu</a>
 
 Large screen:
-![nav menu large screen](Images/nav-lg.png)
+![nav menu large screen](WebVisualizations/Images/nav.jpg)
 
 Small screen:
-![nav menu small screen](Images/nav-sm.png)
+![nav menu small screen](WebVisualizations/Images/nav_sm.jpg)
