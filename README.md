@@ -35,7 +35,7 @@ In building this dashboard, individual pages were created for each plot and a me
 
 ### Website pages
 
-* A [landing page](https://v-malm.github.io/Web-Design-Challenge/) containing:
+* A [landing page](#landing-page) containing:
   * An explanation of the project.
   * Links to each visualizations page. There is a sidebar containing preview images of each plot, and clicking an image takes the user to that visualization.
 * Four [visualization pages](https://v-malm.github.io/Web-Design-Challenge/max_temp.html), each with:
@@ -104,6 +104,19 @@ Site has navigation menu at the top of each page that:
 
 ### Bonuses
 
-Generated the dataset for 7/30/21 
-Added extra visualizations using bootstrap 'Model'
-Visualization navigation on every visualizations page maintains an active state. 
+* Generated the dataset for 7/30/21 
+* Added extra visualizations using bootstrap 'Model'
+* Visualization navigation on every visualizations page maintains an active state. 
+
+### Screenshots
+
+This section contains screenshots of each page, at varying screen widths.
+
+#### <a id="landing-page">Landing page</a>
+Large screen:
+
+![Landing page large screen](WebVisualizations/Images/index.jpg)
+
+Small screen:
+
+![Landing page small screen](WebVisualizations/Images/index.jpg)
