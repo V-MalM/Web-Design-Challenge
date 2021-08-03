@@ -13,11 +13,11 @@ To create a dashboard showing the following analysis :
 
 ### Resources
 
-1. All the files related to the website are in [WebVisualizations Folder](WebVisualizations/).. 
+1. All the files related to the website are in [WebVisualizations Folder](WebVisualizations/)
 
-2. 'WebVisualizations' folder also contains Images, Resourses, Visualizations as seperate folders.
+2. [WebVisualizations Folder](WebVisualizations/) also contains Images, Resourses, Visualizations as seperate folders.
 
-3. Deployed the website using GitHub pages.  
+3. The website has been deployed using GitHub pages.  
 
 4. Site Link : https://v-malm.github.io/Web-Design-Challenge/WebVisualizations/
 
