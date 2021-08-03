@@ -29,8 +29,8 @@ In building this dashboard, individual pages were created for each plot and a me
  * A landing page
  * A page where we can see a comparison of all of the plots 
  * A page to view the data used to build the plots displayed on the website
- * 4 pages displayimg each plot and related analysis
-  * Button trigger modal to open Linear Regression Model for each visualization.
+ * 4 pages displaying each plot and related analysis
+   * Button trigger modal to open Linear Regression Model for each visualization.
 
 
 ### Website pages
