@@ -38,7 +38,7 @@ In building this dashboard, individual pages were created for each plot and a me
 * A [landing page](#landing-page) containing:
   * An explanation of the project.
   * Links to each visualizations page. There is a sidebar containing preview images of each plot, and clicking an image takes the user to that visualization.
-* Four [visualization pages](https://v-malm.github.io/Web-Design-Challenge/max_temp.html), each with:
+* Four [visualization pages](#visualization-pages), each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
@@ -119,4 +119,45 @@ Large screen:
 
 Small screen:
 
-![Landing page small screen](WebVisualizations/Images/index.jpg)
+![Landing page small screen](WebVisualizations/Images/index_sm_f.jpg)
+
+#### <a id="comparisons-page">Comparisons page</a>
+
+Large screen:
+
+![comparison page large screen](Images/comparison-lg.png)
+
+Small screen:
+
+![comparison page small screen](Images/comparison-sm.png)
+
+#### <a id="data-page">Data page</a>
+
+Large screen:
+
+![data page large screen](Images/data-lg.png)
+
+
+Small screen:
+
+![data page small screen](Images/data-sm.png)
+
+#### <a id="visualization-pages">Visualization pages</a>
+
+One for each visualization. Here's an example of one:
+
+Large screen:
+
+![visualize page large screen](Images/visualizations.jpg)
+
+Small screen:
+
+![visualize page small screen](Images/visualizations_sm.jpg)
+
+#### <a id="navigation-menu"></a>Navigation menu
+
+Large screen:
+![nav menu large screen](Images/nav-lg.png)
+
+Small screen:
+![nav menu small screen](Images/nav-sm.png)
