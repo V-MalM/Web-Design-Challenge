@@ -48,17 +48,18 @@
     <div class="row d-flex justify-content-around">
 
       <div class="col-sm-12  col-md-12 col-lg-7 bg-white div_border" >
-        <h3 class="visualization_page_h">Latitude vs. Humidity(%)</h3>
+        <h3 class="visualization_page_h">Latitude vs. WInd Speed(mph)</h3>
         <hr> 
-        <img src="WebVisualizations/Visualizations/city_lat_vs_Humidity.jpeg" class="vis_img">
+        <img src="Visualizations/city_lat_vs_Wind_Speed.jpeg" class="vis_img">
         <br /><br />
         <div class="row d-flex justify-content-around">
           <div class="col-sm-8  col-md-8 col-lg-8 bg-white" >
-            <img src="WebVisualizations/Visualizations/SH_city_lat_vs_HumidityLR.jpeg" class="vis_img_LR">
+            <img src="Visualizations/SH_city_lat_vs_Wind_SpeedLR.jpeg" class="vis_img_LR">
           
-            <img src="WebVisualizations/Visualizations/NH_city_lat_vs_HumidityLR.jpeg" class="vis_img_LR">
+            <img src="Visualizations/NH_city_lat_vs_Wind_SpeedLR.jpeg" class="vis_img_LR">
           </div>
         </div>
+        
 <!-- ####################################-->
           <!-- Button trigger modal -->
           <br />    
@@ -71,28 +72,31 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Sothern and Northern Hemisphere - <br /> Humidity(%) vs. Latitude Linear Regression
+                  <h5 class="modal-title" id="exampleModalLabel">Sothern and Northern Hemisphere - <br /> WInd Speed(mph) vs. Latitude Linear Regression
                   </h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <img src="WebVisualizations/Visualizations/SH_city_lat_vs_HumidityLR.jpeg" width="49%">
-                  <img src="WebVisualizations/Visualizations/NH_city_lat_vs_HumidityLR.jpeg" width="49%">
+                  <img src="Visualizations/SH_city_lat_vs_Wind_SpeedLR.jpeg" width="49%">
+                  <img src="Visualizations/NH_city_lat_vs_Wind_SpeedLR.jpeg" width="49%">
                   <ul>
                   <li>
-                  The line of regression shows that the Latitude and Humidity have a 
+                  The line of regression shows that  the Latitude and Wind Speed have a 
                   VERY WEAK correlation.
                   </li>
                   <li>
-                    There are propotional number of humid cities
-                    across all latitudes in SH and majority of the cities are humid on this day with humidity levels 
-                    between 70% and 100% . 
+                    There are near equal number of cities 
+                    with varied percentage of wind speeds across all latitudes in SH. The maximum wind speed for most of 
+                    the cities is between 0 mph and 10 mph. There were some cities with windspeeds between 10 mph 
+                    and 15 mph. A small percentage of cities across all latitudes were present with wind speeds 
+                    more than 15 mph. 
                   </li> 
                   <li>
-                    There are propotional number of humid cities
-                    across all latitudes in NH and majority of the cities are humid on 
-                    this day with humidity levels 
-                    between 60% and 100% .
+                    There are near equal number of NH cities 
+                    with varied percentage of wind speeds across all latitudes. The maximum wind speed for most of 
+                    the cities is between 0 mph and 10 mph. There were some cities with windspeeds between 10 mph 
+                    and 20 mph. A small percentage of cities across all latitudes were present with wind speeds 
+                    more than 20 mph. 
                   </li>
                   
                   </ul>
@@ -106,29 +110,25 @@
           </div>
           
           <br />
-                    <!-- ####################################-->
-
-
-          <p><strong class="visualization_page_h">Analysis and Observations:</strong>
-            Latitude does not have much affect on Humididty.</p>
-                <p>There are propotional number of humid cities
-                across all latitudes ranging from 8% humidity and 100%.
-                Majority of the cities are humid on this day with humidity levels 
-                between 60% and 100% . There is one city with 0 humididty.
-                Why are there fewer humid cities past the latitudes of 75 N and 50 S?
-                There are simply fewer cities near the Antarctic and Arctic Cirles. </p>
+                    <!-- ####################################-->           
+      <p><strong class="visualization_page_h">Analysis and Observations:</strong>
+        Latitude does not have much affect on wind speeds either. </p>
+                <p>The maximum wind speed for most of 
+                  the cities was between 0 mph and 10 mph. There were some cities with windspeeds between 10 mph 
+                  and 20 mph. A small percentage of cities across all latitudes were present with wind speeds 
+                  more than 20 mph. Why are there fewer windy cities past the latitudes of 60 N and 50 S?
+                  There are simply fewer cities near the Antarctic and Arctic Cirles. </p>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-4 bg-white align-self-start">
         <br />
         <h4 class="visualization_page_h">Visualizations</h4>
         <hr>
-        <a href="max_temp.html"><img src="WebVisualizations/Visualizations/images_borders/city_lat_vs_Max_Temp.jpeg" class="img_width"></a>
-        <a href="cloudiness.html"><img src="WebVisualizations/Visualizations/images_borders/city_lat_vs_Cloudiness.jpeg" class="img_width"></a>
-        <a href="wind_speed.html"><img src="WebVisualizations/Visualizations/images_borders/city_lat_vs_Wind_Speed.jpeg" class="img_width"></a>
-        <a href="humidity.html"><img src="WebVisualizations/Visualizations/images_borders/city_lat_vs_Humidity.jpeg" class="img_width" style="border: solid green;"></a>
+        <a href="max_temp.html"><img src="Visualizations/images_borders/city_lat_vs_Max_Temp.jpeg" class="img_width"></a>
+        <a href="cloudiness.html"><img src="Visualizations/images_borders/city_lat_vs_Cloudiness.jpeg" class="img_width"></a>
+        <a href="wind_speed.html"><img src="Visualizations/images_borders/city_lat_vs_Wind_Speed.jpeg" class="img_width" style="border: solid rgb(229, 151, 229);"></a>
+        <a href="humidity.html"><img src="Visualizations/images_borders/city_lat_vs_Humidity.jpeg" class="img_width"></a>
         <br /><br />
         </div>
-
     </div>
   </div>
    

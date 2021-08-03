@@ -9,7 +9,7 @@ permalink: /index.html
 To create a dashboard showing the analysis that was done earlier..
  * To visualize the weather of 500+ cities across the world of varying distance from the equator by utilizing Python library - citipy, and the OpenWeatherMap API and to create a representative model of weather across world cities.
 
-![WebVisualizations/Images/index.jpg]
+![WebVisualizations/Images/index.jpg](WebVisualizations/Images/index.jpg)
 
 ### Resources
 
@@ -25,11 +25,13 @@ To create a dashboard showing the analysis that was done earlier..
 
 Created a visualization dashboard website using visualizations by plotting [weather data](WebVisualizations/Resources/cities.csv).
 
-In building this dashboard, Created individual pages for each plot and a means by which we can navigate between them. These pages contain the visualizations and their corresponding explanations.  
+In building this dashboard, Created individual pages for each plot and a means by which we can navigate between them. These pages contain the visualizations and their corresponding explanations. This website has 7 pages 
  * The site has a landing page
- * A page where we can see a comparison of all of the plots
- * A page displayimg each plot and related analysis
+ * A page where we can see a comparison of all of the plots 
  * A page to view the data used to build the plots displayed on the website
+ * 4 pages displayimg each plot and related analysis
+  * Button trigger modal to open Linear Regression Model for each visualization.
+
 
 ### Website pages
 
@@ -50,9 +52,9 @@ In building this dashboard, Created individual pages for each plot and a means b
     * The source is from exporting the `.csv` file as HTML by first using pandas to read the csv file to a dataframe and then using Pandas method `to_html` that generates an HTML table from the dataframe.
 
 
-### Website pages
+### Navigation
 
-Created a navigation menu at the top of each page that:
+Site has navigation menu at the top of each page that:
 
 * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
 * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
