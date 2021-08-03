@@ -9,7 +9,7 @@ permalink: /index.html
 To create a dashboard showing the analysis that was done earlier..
  * To visualize the weather of 500+ cities across the world of varying distance from the equator by utilizing Python library - citipy, and the OpenWeatherMap API and to create a representative model of weather across world cities.
 
-[WebVisualizations/Images/index.jpg](WebVisualizations/Images/index.jpg)
+![](WebVisualizations/Images/index.jpg)
 
 ### Resources
 
