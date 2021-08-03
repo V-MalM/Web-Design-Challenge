@@ -125,22 +125,22 @@ Small screen:
 
 Large screen:
 
-![comparison page large screen](Images/comparison-lg.png)
+![comparison page large screen](WebVisualizations/Images/comparisions.jpg)
 
 Small screen:
 
-![comparison page small screen](Images/comparison-sm.png)
+![comparison page small screen](WebVisualizations/Images/comparisions_sm.jpg)
 
 #### <a id="data-page">Data page</a>
 
 Large screen:
 
-![data page large screen](Images/data-lg.png)
+![data page large screen](WebVisualizations/Images/data.jpg)
 
 
 Small screen:
 
-![data page small screen](Images/data-sm.png)
+![data page small screen](WebVisualizations/Images/data_sm.jpg)
 
 #### <a id="visualization-pages">Visualization pages</a>
 
