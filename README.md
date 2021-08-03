@@ -1,3 +1,6 @@
+---
+permalink: /index.html
+---
 
 # Web-Design-Challenge - Web Visualization Dashboard (Latitude)
 
@@ -60,4 +63,4 @@ Site has navigation menu at the top of each page that:
 
 
 ### The website has been deployed to GitHub pages.
-[Web Visualization Dashboard] (https://v-malm.github.io/Web-Design-Challenge/WebVisualizations/) 
+[Web Visualization Dashboard (Latitude)] (https://v-malm.github.io/Web-Design-Challenge/WebVisualizations) 
