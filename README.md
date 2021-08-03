@@ -6,7 +6,7 @@ permalink: /index.html
 
 ## Background
 
-To create a dashboard showing the analysis that was done earlier..
+To create a dashboard showing the following analysis : 
  * To visualize the weather of 500+ cities across the world of varying distance from the equator by utilizing Python library - citipy, and the OpenWeatherMap API and to create a representative model of weather across world cities.
 
 ![WebVisualizations/Images/index.jpg](WebVisualizations/Images/index.jpg)
@@ -15,18 +15,18 @@ To create a dashboard showing the analysis that was done earlier..
 
 1. All the files related to the website are in [WebVisualizations Folder](WebVisualizations/).. 
 
-2. 'WebVisualizations' folder contains Images, Resourses, Visualizations as seperate folders.
+2. 'WebVisualizations' folder also contains Images, Resourses, Visualizations as seperate folders.
 
-3. Deployed to GitHub pages.  
+3. Deployed the website using GitHub pages.  
 
-4. Site Link : https://v-malm.github.io/Web-Design-Challenge/
+4. Site Link : https://v-malm.github.io/Web-Design-Challenge/WebVisualizations/
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
 Created a visualization dashboard website using visualizations by plotting [weather data](WebVisualizations/Resources/cities.csv).
 
-In building this dashboard, Created individual pages for each plot and a means by which we can navigate between them. These pages contain the visualizations and their corresponding explanations. This website has 7 pages 
- * The site has a landing page
+In building this dashboard, individual pages were created for each plot and a means to navigate between them. These pages contain the visualizations and their corresponding explanations. The website has 7 pages 
+ * A landing page
  * A page where we can see a comparison of all of the plots 
  * A page to view the data used to build the plots displayed on the website
  * 4 pages displayimg each plot and related analysis
@@ -64,3 +64,46 @@ Site has navigation menu at the top of each page that:
 
 ### The website has been deployed to GitHub pages.
 [Web Visualization Dashboard (Latitude)] (https://v-malm.github.io/Web-Design-Challenge/WebVisualizations) 
+
+### Considerations
+
+ * Created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator by utilizing Python library - citipy, and the OpenWeatherMap API, to create a representative model of weather across world cities.
+
+ * The script does the following :
+
+  * Randomly selects at least 500 unique (non-repeat) cities based on latitude and longitude.
+  * Perform a weather check on each of the cities using a series of successive API calls.
+  * Includes a print log of each city as it's being processed with the city number and city name.
+  * Saves a CSV of all retrieved data and a PNG and JPEG image for each scatter plot.
+  * Created a series of scatter plots to showcase the following relationships:
+   
+   * Temperature (F) vs. Latitude
+   * Humidity (%) vs. Latitude
+   * Cloudiness (%) vs. Latitude
+   * Wind Speed (mph) vs. Latitude
+   * The note book "WeatherPy.ipynb" has detailed explanation on what the code is analyzing.
+
+* Created a linear regression on each relationship. Created seperate sets of plots for Northern Hemisphere and Southern Hemisphere:
+  
+  * Northern Hemisphere - Temperature (F) vs. Latitude
+  * Southern Hemisphere - Temperature (F) vs. Latitude
+  * Northern Hemisphere - Humidity (%) vs. Latitude
+  * Southern Hemisphere - Humidity (%) vs. Latitude
+  * Northern Hemisphere - Cloudiness (%) vs. Latitude
+  * Southern Hemisphere - Cloudiness (%) vs. Latitude
+  * Northern Hemisphere - Wind Speed (mph) vs. Latitude
+  * Southern Hemisphere - Wind Speed (mph) vs. Latitude
+
+
+* Used Bootstrap. 
+  * This includes using the Bootstrap navbar component for the header on every page, the bootstrap table component for the data page, and the Bootstrap grid for responsiveness on the comparison page.
+  * Deployed website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
+  * Used CSS media query for the navigation menu.
+  * The website works at all window widths/sizes.
+
+
+### Bonuses
+
+Generated the dataset for 7/30/21 
+Added extra visualizations using bootstrap 'Model'
+Visualization navigation on every visualizations page maintains an active state. 
