@@ -23,7 +23,7 @@ To create a dashboard showing the following analysis :
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
-Created a visualization dashboard website using visualizations by plotting [weather data](WebVisualizations/Resources/cities.csv).
+Created a visualization dashboard website using visualizations by plotting [weather data for 07-30-2021](WebVisualizations/Resources/cities.csv).
 
 In building this dashboard, individual pages were created for each plot and a means to navigate between them. These pages contain the visualizations and their corresponding explanations. The website has 7 pages 
  * A landing page
