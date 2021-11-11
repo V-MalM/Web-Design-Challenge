@@ -19,7 +19,7 @@ To create a dashboard showing the following analysis :
 
 3. The website has been deployed using GitHub pages.  
 
-4. Site Link : https://v-malm.github.io/Web-Design-Challenge/WebVisualizations/
+4. Site Link : https://v-malm.github.io/World-Weather-Web-Visualization/WebVisualizations/
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
