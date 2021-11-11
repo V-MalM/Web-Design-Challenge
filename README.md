@@ -2,7 +2,7 @@
 permalink: /index.html
 ---
 
-# Web-Design-Challenge - Web Visualization Dashboard (Latitude)
+# Web Visualization Dashboard (Latitude)
 
 ## Background
 
